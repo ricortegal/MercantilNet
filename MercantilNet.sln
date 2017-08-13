@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MercantilNet", "MercantilNet\MercantilNet.csproj", "{711D8CEF-527B-462A-BC9C-2DB1734FD487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercantil.xUnitCore.Tests", "Mercantil.xUnitCore.Tests\Mercantil.xUnitCore.Tests.csproj", "{83597266-D5C0-47A3-8144-871E04D36336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercantil.Tests", "Mercantil.Tests\Mercantil.Tests.csproj", "{AC8323AA-BE6C-4491-A0F8-37D7020CF652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{711D8CEF-527B-462A-BC9C-2DB1734FD487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711D8CEF-527B-462A-BC9C-2DB1734FD487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711D8CEF-527B-462A-BC9C-2DB1734FD487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711D8CEF-527B-462A-BC9C-2DB1734FD487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83597266-D5C0-47A3-8144-871E04D36336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83597266-D5C0-47A3-8144-871E04D36336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83597266-D5C0-47A3-8144-871E04D36336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83597266-D5C0-47A3-8144-871E04D36336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8323AA-BE6C-4491-A0F8-37D7020CF652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8323AA-BE6C-4491-A0F8-37D7020CF652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8323AA-BE6C-4491-A0F8-37D7020CF652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8323AA-BE6C-4491-A0F8-37D7020CF652}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
