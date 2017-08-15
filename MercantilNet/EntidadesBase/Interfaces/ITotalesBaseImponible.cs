@@ -12,6 +12,5 @@ namespace MercantilNet.EntidadesBase.Interfaces
         decimal TotalDescuentos { get; set; }
         decimal TotalBaseImponible { get; set; }
         decimal TotalImporte { get; set; }
-
     }
 }

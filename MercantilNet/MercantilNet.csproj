@@ -7,7 +7,10 @@
   <ItemGroup>
     <Folder Include="Adaptadores\" />
     <Folder Include="Factorias\" />
-    <Folder Include="Configuraciones\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="1.1.1" />
   </ItemGroup>
 
 </Project>

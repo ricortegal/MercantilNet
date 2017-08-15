@@ -8,6 +8,7 @@ namespace Mercantil.xUnitCore.Tests
         [Fact]
         public void Test1()
         {
+
         }
     }
 }
