@@ -7,8 +7,10 @@ using System.Text;
 
 namespace MercantilNet.Procesos.NotaCompraVenta
 {
-    public class CalculadorBaseNotaCompraVenta 
-        : ICalculadorNotaCompraVenta<ICompraVentaMaestro,ICompraVentaDetalle>
+    public class CalculadorBaseNotaCompraVenta<TMaestro, TDetalle>
+        : ICalculadorNotaCompraVenta<TMaestro, TDetalle>
+        where TMaestro : ICompraVentaMaestro
+        where TDetalle : ICompraVentaDetalle
     {
         private ICompraVentaMaestro _nota;
         private IConfiguracionNotaCompraVenta _configuracion;
@@ -18,28 +20,28 @@ namespace MercantilNet.Procesos.NotaCompraVenta
         /// </summary>
         /// <param name="nota"></param>
         /// <param name="configuracion"></param>
-        public CalculadorBaseNotaCompraVenta(ICompraVentaMaestro  nota, IConfiguracionNotaCompraVenta configuracion)
+        public CalculadorBaseNotaCompraVenta(TMaestro nota, IConfiguracionNotaCompraVenta configuracion)
         {
             _nota = nota;
             _configuracion = configuracion;
         }
 
-        public void RecalculaBases(ICompraVentaMaestro maestro)
+        public void RecalculaBases(TMaestro maestro)
         {
-            throw new NotImplementedException();
+            
         }
 
-        public void RecalculaDetalle(ICompraVentaDetalle detalle)
+        public void RecalculaDetalle(TDetalle detalle)
         {
-            throw new NotImplementedException();
+           
         }
 
-        public void RecalculaNotaCompra(ICompraVentaMaestro maestro, bool recalculaDetalles = false)
+        public void RecalculaNotaCompra(TMaestro maestro, bool recalculaDetalles = false)
         {
-            throw new NotImplementedException();
+            
         }
 
-        public void RecalculoLinea(ICompraVentaDetalle detalle)
+        public void RecalculoLinea(TDetalle detalle)
         {
             
                

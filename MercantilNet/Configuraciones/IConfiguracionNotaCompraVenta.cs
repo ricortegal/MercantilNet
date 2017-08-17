@@ -12,5 +12,6 @@ namespace MercantilNet.Configuraciones
         bool RecargosEnCadedaEnBaseImponible { get; set; }
         bool DescuentosEnCadenaPrecioBruto { get; set; }
         bool CadenaDeDescuentosAplicadoATotalConImpuestos { get; set; }
+        IImpuesto ImpuestoIncluidoPrecioProducto { get; set; }
     }
 }
